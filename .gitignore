@@ -1,22 +1,29 @@
-# Compiled class file
+*.iml
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+.settings
+.classpath
+.project
+.idea
+.iml
+.gitignore
+Thumbs.db
+/target/*
+/target/
+/src/main/resources/test/ice-registry.properties
+/src/main/resources/test/zk.properties
+MANIFEST.MF
 *.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.log
+*.flattened-pom.xml
